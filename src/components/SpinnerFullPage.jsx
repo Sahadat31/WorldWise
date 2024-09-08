@@ -1,7 +1,7 @@
 import Spinner from "./Spinner";
 import styles from "./SpinnerFullPage.module.css";
 
-function SpinnerFullPage() {
+export default function SpinnerFullPage() {
   return (
     <div className={styles.spinnerFullpage}>
       <Spinner />
@@ -9,4 +9,3 @@ function SpinnerFullPage() {
   );
 }
 
-export default SpinnerFullPage;

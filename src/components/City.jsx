@@ -18,7 +18,7 @@ const formatDate = (date) =>
     const {id} = useParams()
     useEffect(function(){
       fetchCity(id)
-    },[id])
+    },[id,fetchCity])
     // TEMP DATA
     // const currentCity = {
     //   cityName: "Lisbon",
